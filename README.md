@@ -3,6 +3,14 @@ CRYPTO/COINBASE API
 ### Install Guide
 - Install local webserver (OSPanel, XAMPP, etc...)
 - Copy unzipped or cloned files and folder to web directory (htdocs, etc...)
+- Directory structure should be as follows:
+- - app/
+  - devops/
+  - .env
+  - .htaccess
+  - README.md
+  - crypto.sql
+  - docker-compose.yml
 - Navigate to app folder to find main files
 - Run Composer Update and Composer Install in terminal
 - Packages Included are:
