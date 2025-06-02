@@ -12,6 +12,7 @@ CRYPTO/COINBASE API
 - Use PHP version 8.1
 - Sample database schema (crypto.sql) is in app folder
 - In case composer install/upgrade fails, vendor.zip is included just unzip inside the app folder
+- Local database connection variables(host,user,database,port) are found in db/dbClass.php
 
 Testing the APP
 ==========================
