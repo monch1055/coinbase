@@ -1,4 +1,4 @@
-CRYPTO API
+CRYPTO/COINBASE API
 =========================
 ### Install Guide
 - Install local webserver (OSPanel, XAMPP, etc...)
@@ -11,6 +11,7 @@ CRYPTO API
   - Slim PSR7
 - Use PHP version 8.1
 - Sample database schema (crypto.sql) is in app folder
+- In case composer install/upgrade fails, vendor.zip is included just unzip inside the app folder
 
 Testing the APP
 ==========================
