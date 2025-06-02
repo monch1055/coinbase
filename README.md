@@ -50,3 +50,7 @@ Assumptions
 - For webhook method, payload data is assumed as post variables
 - For the fake transaction ID in the checkout method, a simulated route named, http://{localhost}/payment-api is created
 - This simulated url is also hosted locally which returns a random hash for the payment URL
+
+Docker Container
+========================
+- Created a docker image but not fully tested
