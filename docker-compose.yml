@@ -1,0 +1,31 @@
+version: "1"
+
+services:
+
+  apache2:
+    build: './devops/web-server'
+    restart: always
+    ports:
+      - 127.0.0.1:${API_PORT}:80
+      - 127.0.0.1:${API_SSL_PORT}:443
+    volumes:
+      - '/var/www/html:/var/www/html'
+    networks:
+      - default
+    env_file: .env
+
+  php:
+    build: './devops/php'
+    env_file: .env
+    volumes:
+      - '${APP_ROOT_DIR}:/srv'
+    networks:
+      - default
+
+  database:
+    build: './devops/database'
+    ports:
+      - 127.0.0.1:${DB_PORT}:3306
+    networks:
+      - default
+    env_file: .env
