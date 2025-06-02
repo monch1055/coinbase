@@ -39,5 +39,5 @@ Assumptions
 ========================
 - For the email and amount in checkout method, assuming proper validation and filtering were done via front-end.
 - For webhook method, payload data is assumed as post variables
-- For the fake transaction ID in the checkout method, a simulated route named, http://crypto/payment-api is created
+- For the fake transaction ID in the checkout method, a simulated route named, http://{localhost}/payment-api is created
 - This simulated url is also hosted locally which returns a random hash for the payment URL
