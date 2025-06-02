@@ -2,7 +2,7 @@ CRYPTO/COINBASE API
 =========================
 ### Install Guide
 - Install local webserver (OSPanel, XAMPP, etc...)
-- Copy unzipped files and folder to web directory (htdocs, etc...)
+- Copy unzipped or cloned files and folder to web directory (htdocs, etc...)
 - Navigate to app folder to find main files
 - Run Composer Update and Composer Install in terminal
 - Packages Included are:
